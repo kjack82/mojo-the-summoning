@@ -1,4 +1,4 @@
-const { db } = require('./config')
+const sequelize = require('./config')
 const { User } = require('../models')
 
 function randInt (a, b) {

@@ -23,4 +23,7 @@ describe('User', () => {
    * Create more tests
    * E.g. check that the username of the created user is actually gandalf
    */
+  it('has the correct username', function () {
+    expect(user.username).toBe('gandalf')
+  })
 })
